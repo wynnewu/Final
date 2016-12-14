@@ -1,0 +1,7 @@
+﻿  source1.c
+h:\gametoolfinal\gametool_final\gametool_final\game_tool\zlib_project\source1.c(84): warning C4013: 'zerr' undefined; assuming extern returning int
+h:\gametoolfinal\gametool_final\gametool_final\game_tool\zlib_project\source1.c(90): warning C4013: 'inf' undefined; assuming extern returning int
+h:\gametoolfinal\gametool_final\gametool_final\game_tool\zlib_project\source1.c(77): error C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_io.h(528): note: see declaration of 'setmode'
+h:\gametoolfinal\gametool_final\gametool_final\game_tool\zlib_project\source1.c(78): error C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_io.h(528): note: see declaration of 'setmode'

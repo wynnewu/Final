@@ -1,8 +1,0 @@
-﻿  UnitTest.cpp
-h:\realfinal\final\game_tool\unittest.h(3): fatal error C1083: Cannot open include file: 'cppunit/extensions/HelperMacros.h': No such file or directory
-  stdafx.cpp
-  Source.cpp
-h:\realfinal\final\game_tool\command.h(12): fatal error C1083: Cannot open include file: 'cppunit/extensions/TestFactoryRegistry.h': No such file or directory
-  Command.cpp
-h:\realfinal\final\game_tool\command.h(12): fatal error C1083: Cannot open include file: 'cppunit/extensions/TestFactoryRegistry.h': No such file or directory
-  Generating Code...

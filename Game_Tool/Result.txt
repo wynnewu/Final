@@ -5,8 +5,8 @@
       <Name>UnitTest::testLine1</Name>
       <FailureType>Assertion</FailureType>
       <Location>
-        <File>h:\gametoolfinal\gametool_final\gametool_final\game_tool\source.cpp</File>
-        <Line>110</Line>
+        <File>h:\realfinal\final\game_tool\source.cpp</File>
+        <Line>108</Line>
       </Location>
       <Message>assertion failed
 - Expression: 0

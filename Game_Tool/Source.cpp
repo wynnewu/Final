@@ -13,31 +13,29 @@
 #include <cppunit/extensions/HelperMacros.h>
 #include <assert.h>
 #include "windows.h" 
-#include "zlib_project/zlib128-dll/include/zlib.h"
-
-
 
 using namespace std;
+
 
 /*
 int CompressData(const BYTE* abSrc, int nLenSrc, BYTE* abDst, int nLenDst)
 {
-	z_stream zInfo = { 0 };
-	zInfo.total_in = zInfo.avail_in = nLenSrc;
-	zInfo.total_out = zInfo.avail_out = nLenDst;
-	zInfo.next_in = (BYTE*)abSrc;
-	zInfo.next_out = abDst;
+z_stream zInfo = { 0 };
+zInfo.total_in = zInfo.avail_in = nLenSrc;
+zInfo.total_out = zInfo.avail_out = nLenDst;
+zInfo.next_in = (BYTE*)abSrc;
+zInfo.next_out = abDst;
 
-	int nErr, nRet = -1;
-	nErr = deflateInit(&zInfo, Z_DEFAULT_COMPRESSION); // zlib function
-	if (nErr == Z_OK) {
-		nErr = deflate(&zInfo, Z_FINISH);              // zlib function
-		if (nErr == Z_STREAM_END) {
-			nRet = zInfo.total_out;
-		}
-	}
-	deflateEnd(&zInfo);    // zlib function
-	return(nRet);
+int nErr, nRet = -1;
+nErr = deflateInit(&zInfo, Z_DEFAULT_COMPRESSION); // zlib function
+if (nErr == Z_OK) {
+nErr = deflate(&zInfo, Z_FINISH);              // zlib function
+if (nErr == Z_STREAM_END) {
+nRet = zInfo.total_out;
+}
+}
+deflateEnd(&zInfo);    // zlib function
+return(nRet);
 }
 */
 int main(int argc, char *argv[])
